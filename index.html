@@ -26,38 +26,38 @@
           <div class="row col-12">
             <div class="first row col-5">
               <label for="Card">Card #</label>
-              <input id="Card" type="text" placeholder="XXXXXXXXXXXXXXXX"></input>
+              <input id="Card" type="text" placeholder="XXXXXXXXXXXXXXXX" required></input>
             </div>
             <div class="second row col-3">
               <label for="CVC">CVC #</label>
-              <input id="CVC" type="text" placeholder="0000"></input>
+              <input id="CVC" type="text" placeholder="0000" required></input>
             </div>
             <div class="third row col-4">
               <label for="Amount">Amount</label>
               <i class="fa-solid fa-dollar-sign"></i>
-              <input id="Amount" type="text" placeholder="Amount"></input>
+              <input id="Amount" type="text" placeholder="Amount" required></input>
             </div>
           </div>
           <!-- second section -->
           <div class="row col-12">
             <div class="first row col-6">
               <label for="firstname">First Name</label>
-              <input id="firstname" type="text"></input>
+              <input id="firstname" type="text" required></input>
             </div>
             <div class="second row col-6">
               <label for="Last Name">Last Name</label>
-              <input id="Last Name" type="text"></input>
+              <input id="Last Name" type="text" required></input>
             </div>
           </div>
           <!-- 3rd section -->
           <div class="row col-12">
             <div class="first row col-6">
               <label for="City">City</label>
-              <input id="City" type="text"></input>
+              <input id="City" type="text" required></input>
             </div>
             <div class="second row col-3">
               <label for="State">State</label>
-              <select id="State" class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <select id="State" class="form-select form-select-sm" aria-label=".form-select-sm example" required>
                 <option selected>Pick a state</option>
                 <option value="AL">Alabama (AL)</option>
                 <option value="AK">Alaska (AK)</option>
@@ -114,7 +114,7 @@
             </div>
             <div class="third row col-3">
               <label for="Postal Code">Postal Code</label>
-              <input id="Postal Code" type="text"></input>
+              <input id="Postal Code" type="text" required></input>
             </div>
           </div>
           <!-- 4th section -->
@@ -127,19 +127,19 @@
               </div>
               <div class="second-inner row col-6">
                 <div class="radio-card row col-2">
-                  <input type="radio" name="cards" id="mastercard">
+                  <input type="radio" name="cards" id="mastercard" required>
                   <i class="fa-brands fa-cc-mastercard"></i>
                 </div>
                 <div class="radio-card row col-2">
-                  <input type="radio" name="cards" id="visa">
+                  <input type="radio" name="cards" id="visa" required>
                   <i class="fa-brands fa-cc-visa"></i>
                 </div>
                 <div class="radio-card row col-2">
-                  <input type="radio" name="cards" id="diners-club">
+                  <input type="radio" name="cards" id="diners-club" required>
                   <i class="fa-brands fa-cc-diners-club"></i>
                 </div>
                 <div class="radio-card row col-2">
-                  <input type="radio" name="cards" id="amex">
+                  <input type="radio" name="cards" id="amex" required>
                   <i class="fa-brands fa-cc-amex"></i>
                 </div>
               </div>
